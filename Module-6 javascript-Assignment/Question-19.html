@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Question-19</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        var name = "Parmar Mitesh";
+        var roll = 12;
+        var Database = 47;
+        var HTML = 98;
+        var CSS = 95;
+        var total = 300;
+        var ob = Database + HTML + CSS;
+        var per = ob*100/total;
+        var avg = ob/3;
+        if(per>=33)
+        {
+           var result = "pass"
+        }
+        else
+        {
+            var result = "fail"
+
+        }
+        if(per>=90)
+        {
+            var grade = "A"
+        }
+        else if(per>=80)
+        {
+            var grade = "B"
+        }
+        else if(per>=70)
+        {
+            var grade = "C"
+        }
+        else if(per>=60)
+        {
+            var grade = "D"
+        }
+    </script>
+</head>
+<body style="background-color:aqua; font-size: 25px;">
+
+    <!-- Question:19
+    
+           • Create result 
+    -->
+    <h1 align="center" style="color:blue;">Result</h1>
+    <table align="center" border="1"width="500px">
+        <tr style="color:red;">
+            <td>NAME</td>
+            <td><script>document.write(name)</script></td>
+
+        </tr>
+        <tr style="color:#3a00ff;">
+            <td>Roll No.</td>
+            <td><script>document.write(roll)</script></td>
+
+        </tr>
+       
+        <tr>
+            <td>Database</td>
+            <td><script>document.write(Database)</script></td>
+
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td><script>document.write(HTML)</script></td>
+
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td><script>document.write(CSS)</script></td>
+
+        </tr>
+     
+        <tr style="color:#3a00ff;">
+            <td>Total Marks</td>
+            <td><script>document.write(total)</script></td>
+
+        </tr>
+        <tr style="color:red;">
+            <td>Obtained Marks</td>
+            <td><script>document.write(ob)</script></td>
+
+        </tr>
+        <tr style="color:red;">
+            <td>Percentage</td>
+            <td><script>document.write(per)</script></td>
+
+        </tr>
+        <tr style="color:red;">
+            <td>Average</td>
+            <td><script>document.write(avg)</script></td>
+
+        </tr>
+        <tr style="color:green;">
+            <td>Grade</td>
+            <td><script>document.write(grade)</script></td>
+
+        </tr>
+        <tr style="color:green;">
+            <td>Fail/pass</td>
+            <td><script>document.write(result)</script></td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>

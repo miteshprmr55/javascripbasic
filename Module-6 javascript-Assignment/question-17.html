@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Question-17</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <!-- Question:17
+    
+            • What are the disadvantages of using innerHTML in JavaScript?
+
+        Answer:-
+        
+             -> * Inner HTML is slow *
+
+                  It is very slow because as inner HTML already parses the content even we have to parse the content 
+                  again so that's why it takes time. When we have used the event handlers then the event handlers are
+                  not automatically attached to the new elements created by innerHTML.
+
+            -> The innerHTML property is a part of the Document Object Model (DOM) that is used to set or return the HTML
+               content of an element. Where the return value represents the text content of the HTML element. It allows 
+               JavaScript code to manipulate a website being displayed. More specifically, it sets or returns the HTML
+               content (the inner HTML) of an element. The innerHTML property is widely used to modify the contents of a
+               webpage as it is the easiest way of modifying DOM. But there are some disadvantages to using innerHTML in
+               JavaScript.      
+
+            -> Disadvantages of using innerHTML property in JavaScript:
+
+
+                *  The use of innerHTML very slow: The process of using innerHTML is much slower as its contents as
+                   slowly built, also already parsed contents and elements are also re-parsed which takes time.
+
+                *  Preserves event handlers attached to any DOM elements: The event handlers do not get attached to the
+                   new elements created by setting innerHTML automatically. To do so one has to keep track of the event handlers and attach it to new elements manually. This may cause a memory leak on some browsers.
+
+                *  Content is replaced everywhere: Either you add, append, delete or modify contents on a webpage using
+                  innerHTML, all contents is replaced, also all the DOM nodes inside that element are reparsed and 
+                  recreated.
+
+                *  Appending to innerHTML is not supported: Usually, += is used for appending in JavaScript. But on 
+                   appending to an Html tag using innerHTML, the whole tag is re-parsed.   
+    -->
+    
+</body>
+</html>
